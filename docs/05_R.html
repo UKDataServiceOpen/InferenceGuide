@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -94,10 +94,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7a4068b46cc005e1514339e2acc6e017.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a51c6eda23400dd08e9904a0902dfcf7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f410b66b4933f15108f8fa93e83e019d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -126,31 +126,15 @@ div.csl-indent {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<style>
-
-      .quarto-title-block .quarto-title-banner h1,
-      .quarto-title-block .quarto-title-banner h2,
-      .quarto-title-block .quarto-title-banner h3,
-      .quarto-title-block .quarto-title-banner h4,
-      .quarto-title-block .quarto-title-banner h5,
-      .quarto-title-block .quarto-title-banner h6
-      {
-        color: #742082;
-      }
-
-      .quarto-title-block .quarto-title-banner {
-        color: #742082;
-background: white;
-      }
-</style>
 
 
+<link rel="stylesheet" href="ukds_long.css">
 </head>
 
 <body class="nav-sidebar floating quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -166,23 +150,7 @@ background: white;
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05_R.html">5. Exercises</a></li><li class="breadcrumb-item"><a href="./05_R.html">R</a></li></ol></nav>
-      <h1 class="title">R</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-body">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
@@ -191,7 +159,7 @@ background: white;
       <img src="./pics/UKDS_Logos_Col_Grey_300dpi.png" alt="UKDS homepage" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Statistical inference with weights and survey design variables</a> 
+      <a href="./"></a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -292,10 +260,25 @@ background: white;
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-body" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05_R.html">5. Exercises</a></li><li class="breadcrumb-item"><a href="./05_R.html">R</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">R</h1>
+</div>
 
 
 
+<div class="quarto-title-meta column-body">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <p>The R <em>Survey</em> package <span class="citation" data-cites="Lumley2023">(<a href="09_References.html#ref-Lumley2023" role="doc-biblioref">Lumley 2023</a>)</span> provides a comprehensive set of functions for computing point and variance estimates from survey data. At the same time, R Base does not provide a unified sets of commands or syntax for computing weighted estimates. Implementation of statistical theory may vary between packages, but algorithms are usually described in detail in the package documentation.</p>
@@ -314,7 +297,7 @@ background: white;
 <span id="cb1-4"><a href="#cb1-4"></a><span class="fu">library</span>(Hmisc) <span class="do">### Extra statistical functions</span></span>
 <span id="cb1-5"><a href="#cb1-5"></a><span class="fu">library</span>(survey) <span class="do">### Survey design functions</span></span>
 <span id="cb1-6"><a href="#cb1-6"></a><span class="fu">library</span>(kableExtra) <span class="do">### Survey design functions</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a><span class="fu">setwd</span>(<span class="st">"~/OneDrive/DSP/SSP/DSP-core-inference"</span>) <span class="do">### Edit as appropriate</span></span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="fu">setwd</span>(<span class="st">"~/OneDrive/SSP/DSP-core-inference"</span>) <span class="do">### Edit as appropriate</span></span>
 <span id="cb1-8"><a href="#cb1-8"></a>datadir<span class="ot">&lt;-</span><span class="st">"~/Data/"</span>                <span class="do">### Edit as appropriate</span></span>
 <span id="cb1-9"><a href="#cb1-9"></a><span class="co">#datadir&lt;-"~/Dropbox/work/UKDS/data/"                </span><span class="al">###</span><span class="co"> Edit as appropriate</span></span>
 <span id="cb1-10"><a href="#cb1-10"></a>bsa17<span class="ot">&lt;-</span><span class="fu">read_spss</span>(<span class="fu">paste0</span>(datadir,<span class="st">"bsa/UKDA-8450-spss/spss/spss25/bsa2017_for_ukda.sav"</span>))</span>

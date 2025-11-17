@@ -178,11 +178,30 @@ in data analysis.
 ```{mermaid}
 %%| echo: false
 %%| fig-cap: "**Visual Summary: Clustering in Survey Sampling**" 
+
+%%{
+init: {
+  "themeVariables": { 'primaryColor': '#C6A6CD',
+                      'primaryTextColor': '#000',
+                      'primaryBorderColor': '#7C0000',
+                      'lineColor': '#F8B229',
+                      'secondaryColor': '#FADD99',
+                      'tertiaryColor': '#fff',
+                      'nodeTextColor': '#a6a7a7'},
+  "theme": 'base'
+}}%%
+
+
 flowchart TD
     A[FULL POPULATION] --> B[Grouped into clusters <br/>e.g. postcode districts]   
     B --> C[Sampling of clusters <br/>Primary Sampling Units]  
     C --> D[Further sampling:  <br/>households, individuals]
 ```
+    
+    style A fill:#C6A6CD
+    style B fill:#C6A6CD
+    style C fill:#EB99BC
+    style D fill:#ABBBD5
 
 **Key Points to Remember**:
 

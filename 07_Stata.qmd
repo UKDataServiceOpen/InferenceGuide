@@ -58,7 +58,7 @@ We first need to open the BSA dataset.
 ```{stata 7.1}
 *** Setting the working directory
 *** Edit the line below  as appropriate
-quietly  cd ~/OneDrive/DSP/SSP/DSP-core-inference 
+quietly  cd ~/OneDrive/SSP/DSP-core-inference 
 
 use ~/Data/bsa/UKDA-8450-stata/bsa2017_for_ukda.dta
 

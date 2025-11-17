@@ -50,9 +50,8 @@ format:
       link-external-newwindow: true
       citations-hover: true
       footnotes-hover: true
-      title-block-banner: "white"
-      title-block-banner-color: "#742082"
-      
+      css: ukds_long.css
+
     # titlepage-pdf:
     #   titlepage: plain
     #   titlepage-geometry:
@@ -75,13 +74,6 @@ format:
     #     - bottom=30mm
 
 
-theme:
-    - default
-    - custom_ukds.scss
-
-
-#monofont: "Courier New"
-#monofontoptions: 'Scale=0.8'
 pdf-engine: lualatex
 
 
