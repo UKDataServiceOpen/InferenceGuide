@@ -209,7 +209,7 @@ library(kableExtra) ### Survey design functions
 
 #setwd("C:/Users/mscsepw2/OneDrive - The University of Manchester/Surveyskills")
 #setwd("~/Dropbox/work/UKDS/DSP/DSP-core-inference") ### Edit as appropriate
-setwd("~/OneDrive/DSP/SSP/DSP-core-inference") ### Edit as appropriate
+setwd("~/OneDrive/SSP/DSP-core-inference") ### Edit as appropriate
 datadir<-"~/Data/"                ### Edit as appropriate
 #datadir<-"~/Dropbox/work/UKDS/data/"                ### Edit as appropriate
 bsa17<-read_spss(paste0(datadir,"bsa/UKDA-8450-spss/spss/spss25/bsa2017_for_ukda.sav"))
