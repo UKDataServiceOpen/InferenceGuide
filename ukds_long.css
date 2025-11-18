@@ -264,10 +264,6 @@ nav[role="doc-toc"] .nav-link:hover {
 }
 
 /* Replace "On this page" in RIGHT SIDEBAR if needed */
-#toc-title::before {
-  content: "Content";
-  font-weight: 700;
-}
 
 #toc-title {
   visibility: hidden;
@@ -275,7 +271,7 @@ nav[role="doc-toc"] .nav-link:hover {
 }
 
 #toc-title::before {
-  content: "On this page";
+  content: "Content";
   visibility: visible;
   position: absolute;
   left: 0;
