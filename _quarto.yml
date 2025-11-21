@@ -39,7 +39,7 @@ book:
     
 
 format:
-    # html: 
+     html: 
       code-overflow: scroll
       code-line-numbers: true
       page-layout: full
