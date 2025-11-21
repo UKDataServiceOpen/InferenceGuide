@@ -1,4 +1,4 @@
-# Introduction {.unnumbered}
+## Introduction {.unnumbered}
 
 This guide discusses the practical steps required to produce reliable
 population estimates with survey data curated by the UK Data Service. It
